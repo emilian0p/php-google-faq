@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 h2 h3 h4 h5 h6{
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    margin: 1rem;
+}
+div.header-top{
+    display: flex;
+}
+
+div.header-top h1{
+    color: grey;
+    font-weight: 600;
+    font-size: 1.5rem;
+}
+div.header-top img{
+    vertical-align: middle;
+}
