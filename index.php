@@ -68,7 +68,18 @@
     </header>
 
     <main>
-        
+        <div class="questions-container">
+            <?php foreach ($faqs as $questionArray) { ?>  
+            <div class="question-element">
+                <h1 class="question-header">
+                    <?php echo $questionArray['question']; ?>
+                </h1>
+                <p class="question-answer">
+                    <?php echo $questionArray['answer']; ?>
+                </p>
+            </div>
+            <?php } ?>
+        </div>
     </main>
 
     <footer></footer>
